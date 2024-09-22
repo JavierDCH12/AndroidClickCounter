@@ -37,6 +37,16 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+        //BOTON RESET
+        binding.ButonReset.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                contador=0;
+                binding.ContadorNumerico.setText(String.valueOf(contador));
+            }
+        });
+
+
 
 
 
